@@ -174,4 +174,142 @@ order: 2;
 flex-grow: 0;
 
   }
+
+
+  .product {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    gap: 15px;
+  
+    width: 590px;
+    height: 967px;
+  
+    background: linear-gradient(337.27deg, #000000 0.49%, #050932 96.47%);
+    border: 1px solid #7BB312;
+    border-radius: 30px;
+  }
+  
+  .product-img {
+    width: 530px;
+    height: 530px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  
+    width: 530px;
+    height: auto;
+  }
+  
+  .product-h {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  
+  .product-desc {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #929292;
+    margin: 0;
+  }
+  
+  .rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .rating-text {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  
+  .price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 23px;
+    margin: 0;
+  }
+  
+  .price-text {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #7BB312;
+    margin: 0;
+  }
+  
+  .buy-btn{
+
+
+/* Frame 13 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 530px;
+height: 57px;
+
+background: #7BB312;
+border-radius: 30px;
+
+
+
+
+  }
+
+
+.buy{
+
+
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+
+}
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap; /* дозволяє переносити елементи */
+    flex-direction: row;
+    justify-content: center; /* щоб продукти рівно ставали */
+    align-items: flex-start;
+    gap: 32px;
+    padding: 0;
+    margin: 0 auto; /* центрування контейнера */
+    max-width: 100%; /* щоб не розтягувалося */
+  }
   
