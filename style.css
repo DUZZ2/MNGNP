@@ -1,1 +1,287 @@
-/* Тут буде описані стилі веб сторінки */
+body{
+
+    margin: 0;
+    background-color: #000000;
+}
+.nav-bar{
+
+    /* header */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 104px;
+
+width: 100%;
+height: 160px;
+
+background: #000000;
+border: 1px solid #7BB312;
+box-shadow: 0px 4px 4px #7BB312;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+}
+
+.nav-bar-items{
+
+
+    /* Frame 8 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding-right: 20px;
+gap: 54px;
+
+height: 38px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.nav-item{
+
+
+    /* Каталог */
+
+width: 145px;
+height: 35px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.order-button{
+    /* Замовити */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 126px;
+height: 34px;
+
+background: #7BB312;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.nav-bar-content{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+    
+}
+
+.premium-btn{
+
+
+    /* Frame 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 185px;
+height: 35px;
+
+background: #7BB312;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.banner{
+
+
+
+    /* Банер */
+
+width: 100%;
+height: 830px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.banner-content{
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 553px;
+
+
+
+
+}
+
+.banner-text{
+
+
+    /* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 0px;
+
+width: 241px;
+height: 630px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.slogan{
+
+    /* Слоган */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap:0px;
+width: 241px;
+height: 231px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.h1-main{
+
+
+    /* Чиста */
+
+width: 241px;
+height: 77px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.h1-secondary{
+
+    /* Енергія */
+
+width: 241px;
+height: 77px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+
+color: #7BB312;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+
+.water-image{
+    /* Water 1 */
+
+width: 780px;
+height: 426px;
+
+background: url(/src/Water1.png);
+border-radius: 1px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
