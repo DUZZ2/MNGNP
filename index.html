@@ -8,26 +8,43 @@
 </head>
 <body>
 
-    <div class="nav-bar">
+        <div class="nav-bar">
         <div class="nav-bar-content">
-          <div class="nav-bar-items">
-            <a class="nav-item" href="#">Каталог</a>
-            <a class="nav-item" href="#">Про Нас</a>
-            <a class="nav-item" href="#">Доставка</a>
-            <a class="nav-item" href="#">Контакти</a>
-            <a class="nav-item" href="#">Відгуки</a>
-          </div>
+        <div class="nav-bar-items">
+            <a class="nav-item" href="#catalog">Каталог</a>
+            <a class="nav-item" href="#about">Про Нас</a>
+            <a class="nav-item" href="#delivery">Доставка</a>
+            <a class="nav-item" href="#contacts">Контакти</a>
+            <a class="nav-item" href="#reviews">Відгуки</a>
         </div>
-        <div class="order-button">
-          <a >Замовити</a>
         </div>
-      </div>
-      
+            <div class="order-button">
+            <a id="orderBtn">Замовити</a>
+            <span id="cartCount" class="cart-count">0</span>
+            </div>
+
+            <!-- Модальне вікно кошика -->
+            <div id="cartModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>🛒 Ваш кошик</h2>
+                <div id="cartItems"></div>
+                <p id="emptyCart">Товар не обраний</p>
+            </div>
+</div>
+    </div>
+        <div id="delivery" class="delivery-section">
+            <h1 class="delivery-title">🚚 Доставка</h1>
+            <p class="delivery-text">
+                Ми доставляємо нашу воду по всій Україні.  
+                Час доставки: від 1 до 3 днів у залежності від вашого регіону.
+            </p>
+    </div>
             
     <div class="main-content">
         <div class = 'banner'>
             <div class = 'banner-content'>
-              <div class = 'banner-text'>
+              <div class = 'banner-text animate-fade'>
                     <div class = 'premium-btn'>
                         <a>Преміум якість</a>
                     </div>
@@ -46,10 +63,10 @@
                     </p>
               </div>
             </div>
-            <img class="water-image" src="Water1.png">
+            <img class="water-image animate-slide" src="Water1.png">
 
         </div>
-        <div class = 'products'>
+        <div class = 'products' id="catalog">
             <div class = 'product'>
                 <img class="product-img" src = 'water-premium.png'>
                 <div class = 'description'>
@@ -117,11 +134,11 @@
             </div>
 
         </div>
-        <div class="reviews">
+        <div class="reviews" id="reviews">
             <hr class="reviews_line">
             <h1 class="say_reviews">Що кажуть наші <span class="green-text">клієнти</span></h1>
             <div class="comments">
-            <div class="comments-item">
+            <div class="comments-item animate-fade" >
                 <div class="star-group">
                     <img class="star-s" src="Frame.svg">
                     <img class="star-s" src="Frame.svg">
@@ -141,7 +158,7 @@
                 </div>
               
             </div>
-            <div class="comments-item">
+            <div class="comments-item animate-fade">
                 <div class="star-group">
                     <img class="star-s" src="Frame.svg">
                     <img class="star-s" src="Frame.svg">
@@ -161,7 +178,7 @@
                 </div>
               
             </div>
-            <div class="comments-item">
+            <div class="comments-item animate-fade">
                 <div class="star-group">
                     <img class="star-s" src="Frame.svg">
                     <img class="star-s" src="Frame.svg">
@@ -181,7 +198,7 @@
                 </div>
               
             </div>
-            <div class="footer">
+            <div class="footer" id="contacts">
                 <div class="support"> 
                     <h1 class="support-t">Підтримка</h1>
                     <p class="support-text"> Доставка та оплата</p>
@@ -198,6 +215,6 @@
     </div>
 
     
-  
+  <script src="script.js"></script>
 </body>
 </html>
