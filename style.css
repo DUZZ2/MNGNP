@@ -313,3 +313,243 @@ color: #000000;
     max-width: 100%; /* щоб не розтягувалося */
   }
   
+
+.reviews_line{
+
+
+margin-top: 100px;
+text-align: center;
+
+width: 25%;
+border: 1px solid #A5F511;
+
+}
+
+
+.reviews{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap:80px;
+
+
+}
+
+.say_reviews{
+
+
+
+
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+
+
+
+
+}
+
+.green-text{
+
+
+color:#7BB312;
+
+}
+
+
+.comments{
+
+
+
+/* Commets */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0px;
+gap: 112px;
+
+
+
+
+
+
+}
+
+.comments-item{
+
+
+  /* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 50px;
+gap: 84px;
+
+
+
+background: linear-gradient(330.66deg, #1C0C73 -7.4%, #000000 97.99%);
+border-radius: 15px;
+
+
+
+}
+
+.star-group{
+
+
+/* 5 star */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+
+
+
+
+}
+
+.star-s{
+
+
+
+  /* Frame */
+
+width: 50px;
+height: 50px;
+
+
+}
+
+.comment-text{
+
+
+  /* AquaPrime Sport - моя незмінна супутниця на тренуваннях. Смак чудовий, а енергія після неї відчувається одразу! */
+
+width: 442px;
+height: 335px;
+
+
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+
+
+
+
+}
+.comment-name{
+
+
+
+/* Олена Коваленко Фітнес-тренер */
+
+width: 298.2px;
+height: 135px;
+
+
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+
+
+
+
+}
+
+.avatar{
+
+/* Frame 20 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 84px;
+
+
+}
+.comment-avatar{
+  /* Group */
+
+
+height: 100px;
+
+}
+.footer{
+  /* footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 250px;
+
+position: absolute;
+width: 1934px;
+height: 596px;
+left: 0px;
+top: 3212px;
+
+background: linear-gradient(90deg, #1A2E59 0%, #050932 100%);
+
+}
+.support-t{
+/* Підтримка */
+
+width: 266px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+.support-text{
+  /* Доставка та оплата */
+
+
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
